@@ -17,6 +17,7 @@ body {
     height: 990px;
     background-color: #E2F0FF;
     flex-direction: column;
+    align-items: center;
 }
 
 .first_half div {
@@ -29,19 +30,142 @@ body {
     height: 391px;
 }
 
-.first_half h1 {
+.first_half h2 {
+    width: 400px;
+    margin-top: 56px;
     display: flex;
     font-size: 26px;
     text-align: center;
     color: #292731;
-    text-align: center;
-    // justify-content: center;
-    // align-items: center;
+}
 
+.first_half p {
+    width: 386px;
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #455360;
+}
+
+.second {
+    background-color: #F5F5F5;
+    width: 710px;
+    height: 990px;
 }
 
 .second_half {
     display: flex;
-    background-color: #F5F5F5;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #F5F5F5;
+    display: flex;
+    width: 440px;
+    height: 529px;
+    margin: 166px 155px 225px 155px;
 
+}
+
+.second_half .img {
+    background-image: url(./assets/waving-hand.svg);
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.second_half h1 {
+    width: 239px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #292731;
+    margin-top: 13.7px;
+}
+
+.second_half .subtitle {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #292731;
+}
+
+.second_half .e-mail {
+    margin-top: 62px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #455360;
+}
+
+.second_half .input_mail {
+    margin-top: 10px;
+    width: 440px;
+    height: 48px;
+    background-color: #ECF2F7;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.second_half .input_mail p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B8389;
+    padding: 12px 0;
+}
+
+.second_half .passw {
+    margin-top: 39px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #455360;
+}
+
+.second_half .input_password {
+    margin-top: 10px;
+    width: 440px;
+    height: 48px;
+    background-color: #ECF2F7;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.second_half .input_password p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B8389;
+    padding: 12px 0;
+}
+
+.second_half .valid {
+    margin-top: 44px;
+    width: 440px;
+    height: 48px;
+    background: #4C70FF;
+    border-radius: 8px;
+    padding: 0 20px;
+}
+
+.second_half .valid p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.second_half .sign-in {
+    margin-top: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.second_half .sign-in p{
+    color: #292731;
+}
+
+a {
+    color: #66BCE8;
 }
