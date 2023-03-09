@@ -33,7 +33,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 174px;
-  background-image: url(./assets/1.svg);
+  background-image: url(./assets_2/1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 524px;
@@ -85,7 +85,7 @@ body {
 }
 
 .second_half .img {
-  background-image: url(./assets/waving-hand.svg);
+  background-image: url(./assets_2/waving-hand.svg);
   width: 36px;
   height: 36px;
   background-repeat: no-repeat;
@@ -121,21 +121,17 @@ body {
   color: #455360;
 }
 
-/* .second_half .input_mail {
-  margin-top: 10px;
-  width: 440px;
-  height: 48px;
-  background-color: #ECF2F7;
-  border-radius: 4px;
-  padding: 0 20px;
-} */
 .second_half .input_mail .inp_em_number {
   margin-top: 10px;
   width: 440px;
   height: 48px;
   background-color: #ECF2F7;
-  border: 4px solid green;
+  border: 4px;
   padding: 0 20px;
+}
+
+.second_half .input_mail .inp_em_number::-moz-focus-inner {
+  border: 0;
 }
 
 .second_half .input_mail ::-webkit-input-placeholder {
@@ -173,12 +169,6 @@ body {
   padding: 12px 0;
 }
 
-/* .second_half .input_mail p {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-} */
 .second_half .passw {
   margin-top: 39px;
   font-weight: 500;
@@ -191,8 +181,12 @@ body {
   width: 440px;
   height: 48px;
   background-color: #ECF2F7;
-  border-radius: 4px;
+  border: 4px;
   padding: 0 20px;
+}
+
+.second_half .input_password .inp_password::-moz-focus-inner {
+  border: 0;
 }
 
 .second_half .input_password ::-webkit-input-placeholder {
@@ -224,6 +218,61 @@ body {
 }
 
 .second_half .input_password ::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half .confim_passw {
+  margin-top: 39px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #455360;
+}
+
+.second_half .input_confim_password .inp_confim_password {
+  margin-top: 10px;
+  width: 440px;
+  height: 48px;
+  background-color: #ECF2F7;
+  border: 4px;
+  padding: 0 20px;
+}
+
+.second_half .input_confim_password .inp_confim_password::-moz-focus-inner {
+  border: 0;
+}
+
+.second_half ._confim_password ::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half ._confim_password ::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half ._confim_password :-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half ._confim_password ::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half ._confim_password ::placeholder {
   font-weight: 400;
   font-size: 16px;
   color: #7B8389;
