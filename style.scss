@@ -97,75 +97,91 @@ body {
     font-weight: 500;
     font-size: 16px;
     color: #455360;
-}
-
-.second_half .input_mail {
+  }
+  
+  /* .second_half .input_mail {
     margin-top: 10px;
     width: 440px;
     height: 48px;
     background-color: #ECF2F7;
     border-radius: 4px;
     padding: 0 20px;
-}
-
-.second_half .input_mail p {
+  } */
+  
+  .second_half .input_mail .inp_em_number{
+    margin-top: 10px;
+    width: 440px;
+    height: 48px;
+    background-color: #ECF2F7;
+    border: 4px solid green;
+    padding: 0 20px;
+  }
+  
+  .second_half .input_mail ::placeholder{
     font-weight: 400;
     font-size: 16px;
     color: #7B8389;
     padding: 12px 0;
-}
-
-.second_half .passw {
+  }
+  
+  /* .second_half .input_mail p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B8389;
+    padding: 12px 0;
+  } */
+  
+  .second_half .passw {
     margin-top: 39px;
     font-weight: 500;
     font-size: 16px;
     color: #455360;
-}
-
-.second_half .input_password {
+  }
+  
+  .second_half .input_password .inp_password {
     margin-top: 10px;
     width: 440px;
     height: 48px;
     background-color: #ECF2F7;
     border-radius: 4px;
     padding: 0 20px;
-}
-
-.second_half .input_password p {
+  }
+  
+  .second_half .input_password ::placeholder {
     font-weight: 400;
     font-size: 16px;
     color: #7B8389;
     padding: 12px 0;
-}
-
-.second_half .valid {
+  }
+  
+  .second_half .valid {
     margin-top: 44px;
     width: 440px;
     height: 48px;
     background: #4C70FF;
     border-radius: 8px;
     padding: 0 20px;
-}
-
-.second_half .valid p {
+  }
+  
+  .second_half .valid p {
     font-weight: 500;
     font-size: 20px;
     color: #FFFFFF;
     padding: 12px 0;
     text-align: center;
-}
-
-.second_half .sign-in {
+  }
+  
+  .second_half .sign-in {
     margin-top: 19px;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-}
-
-.second_half .sign-in p{
+  }
+  
+  .second_half .sign-in p {
     color: #292731;
-}
-
-a {
+  }
+  
+  a {
     color: #66BCE8;
-}
+  }
