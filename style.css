@@ -121,22 +121,64 @@ body {
   color: #455360;
 }
 
-.second_half .input_mail {
+/* .second_half .input_mail {
   margin-top: 10px;
   width: 440px;
   height: 48px;
   background-color: #ECF2F7;
   border-radius: 4px;
   padding: 0 20px;
+} */
+.second_half .input_mail .inp_em_number {
+  margin-top: 10px;
+  width: 440px;
+  height: 48px;
+  background-color: #ECF2F7;
+  border: 4px solid green;
+  padding: 0 20px;
 }
 
-.second_half .input_mail p {
+.second_half .input_mail ::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 16px;
   color: #7B8389;
   padding: 12px 0;
 }
 
+.second_half .input_mail ::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half .input_mail :-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half .input_mail ::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half .input_mail ::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+/* .second_half .input_mail p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+} */
 .second_half .passw {
   margin-top: 39px;
   font-weight: 500;
@@ -144,7 +186,7 @@ body {
   color: #455360;
 }
 
-.second_half .input_password {
+.second_half .input_password .inp_password {
   margin-top: 10px;
   width: 440px;
   height: 48px;
@@ -153,7 +195,35 @@ body {
   padding: 0 20px;
 }
 
-.second_half .input_password p {
+.second_half .input_password ::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half .input_password ::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half .input_password :-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half .input_password ::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+
+.second_half .input_password ::placeholder {
   font-weight: 400;
   font-size: 16px;
   color: #7B8389;
