@@ -11,8 +11,7 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
-.first_half {
+body .first_half {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,8 +26,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.first_half div {
+body .first_half div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,8 +37,7 @@ body {
   width: 524px;
   height: 391px;
 }
-
-.first_half h2 {
+body .first_half h2 {
   width: 400px;
   margin-top: 56px;
   display: -webkit-box;
@@ -50,8 +47,7 @@ body {
   text-align: center;
   color: #292731;
 }
-
-.first_half p {
+body .first_half p {
   width: 386px;
   margin-top: 23px;
   font-weight: 400;
@@ -59,14 +55,12 @@ body {
   text-align: center;
   color: #455360;
 }
-
-.second {
+body .second {
   background-color: #F5F5F5;
   width: 710px;
   height: 990px;
 }
-
-.second_half {
+body .second .second_half {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,8 +77,7 @@ body {
   height: 529px;
   margin: 166px 155px 225px 155px;
 }
-
-.second_half .img {
+body .second .second_half .img {
   background-image: url(./assets/waving-hand.svg);
   width: 36px;
   height: 36px;
@@ -97,8 +90,7 @@ body {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-
-.second_half h1 {
+body .second .second_half h1 {
   width: 239px;
   height: 45px;
   font-weight: 600;
@@ -106,22 +98,95 @@ body {
   color: #292731;
   margin-top: 13.7px;
 }
-
-.second_half .subtitle {
+body .second .second_half .subtitle {
   margin-top: 12px;
   font-weight: 400;
   font-size: 16px;
   color: #292731;
 }
-
-.second_half .e-mail {
+body .second .second_half .e-mail {
   margin-top: 62px;
   font-weight: 500;
   font-size: 16px;
   color: #455360;
 }
-
-.second_half .input_mail .inp_em_number {
+body .second .second_half .input_mail ::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_mail ::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_mail :-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_mail ::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_mail ::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_mail .inp_em_number {
+  outline: none;
+  margin-top: 10px;
+  width: 440px;
+  height: 48px;
+  background-color: #ECF2F7;
+  border: 10px;
+  padding: 0 20px;
+}
+body .second .second_half .passw {
+  margin-top: 39px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #455360;
+}
+body .second .second_half .input_password ::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_password ::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_password :-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_password ::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_password ::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
+body .second .second_half .input_password .inp_password {
+  outline: none;
   margin-top: 10px;
   width: 440px;
   height: 48px;
@@ -129,102 +194,7 @@ body {
   border: 4px;
   padding: 0 20px;
 }
-
-.second_half .input_mail .inp_em_number::-moz-focus-inner {
-  border: 0;
-}
-
-.second_half .input_mail ::-webkit-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .input_mail ::-moz-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .input_mail :-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .input_mail ::-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .input_mail ::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .passw {
-  margin-top: 39px;
-  font-weight: 500;
-  font-size: 16px;
-  color: #455360;
-}
-
-.second_half .input_password .inp_password {
-  margin-top: 10px;
-  width: 440px;
-  height: 48px;
-  background-color: #ECF2F7;
-  border-radius: 4px;
-  padding: 0 20px;
-}
-
-.second_half .input_password .inp_password::-moz-focus-inner {
-  border: 0;
-}
-
-.second_half .input_password ::-webkit-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .input_password ::-moz-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .input_password :-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .input_password ::-ms-input-placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .input_password ::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
-
-.second_half .valid {
+body .second .second_half .valid {
   margin-top: 44px;
   width: 440px;
   height: 48px;
@@ -232,26 +202,22 @@ body {
   border-radius: 8px;
   padding: 0 20px;
 }
-
-.second_half .valid p {
+body .second .second_half .valid p {
   font-weight: 500;
   font-size: 20px;
   color: #FFFFFF;
   padding: 12px 0;
   text-align: center;
 }
-
-.second_half .sign-in {
+body .second .second_half .sign-in {
   margin-top: 19px;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
 }
-
-.second_half .sign-in p {
+body .second .second_half .sign-in p {
   color: #292731;
 }
-
-a {
+body .second .second_half .sign-in a {
   color: #66BCE8;
 }
