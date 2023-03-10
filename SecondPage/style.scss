@@ -100,16 +100,13 @@ body {
 }
 
 .second_half .input_mail .inp_em_number {
+  outline: none;
   margin-top: 10px;
   width: 440px;
   height: 48px;
   background-color: #ECF2F7;
   border: 4px;
   padding: 0 20px;
-}
-
-.second_half .input_mail .inp_em_number::-moz-focus-inner {
-  border: 0;
 }
 
 .second_half .input_mail ::placeholder {
@@ -128,16 +125,13 @@ body {
 }
 
 .second_half .input_password .inp_password {
+  outline: none;
   margin-top: 10px;
   width: 440px;
   height: 48px;
   background-color: #ECF2F7;
   border: 4px;
   padding: 0 20px;
-}
-
-.second_half .input_password .inp_password::-moz-focus-inner {
-  border: 0;
 }
 
 .second_half .input_password ::placeholder {
@@ -154,7 +148,14 @@ body {
   color: #455360;
 }
 
+.second_half .input_confim_password ::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B8389;
+  padding: 12px 0;
+}
 .second_half .input_confim_password .inp_confim_password {
+  outline: none;
   margin-top: 10px;
   width: 440px;
   height: 48px;
@@ -163,16 +164,6 @@ body {
   padding: 0 20px;
 }
 
-.second_half .input_confim_password .inp_confim_password::-moz-focus-inner {
-  border: 0;
-}
-
-.second_half ._confim_password ::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  color: #7B8389;
-  padding: 12px 0;
-}
 
 .second_half .valid {
   margin-top: 44px;
