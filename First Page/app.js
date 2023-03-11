@@ -9,6 +9,8 @@ valid.addEventListener('click', function () {
         
         if (!/^\w+\+\w+\=[0-9]+$/gm.test(password)) throw new Error ('некорректный пароль')
         
+        document.querySelector('.inp_em_number').style = "border: 4px solid green";
+        document.querySelector('.inp_password').style = "border: 4px solid green";
         alert('Вы успешно зарегистрированы в системе')
         
     } catch (error) {
